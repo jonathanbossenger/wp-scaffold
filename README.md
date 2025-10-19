@@ -3,7 +3,17 @@ WP CLI command to scaffold new functionality
 
 ## Installation
 
-Install this package as a WP CLI package:
+### From Git Repository
+
+Install this package as a WP CLI package directly from the git repository:
+
+```bash
+wp package install git@github.com:jonathanbossenger/wp-scaffold.git
+```
+
+### From Composer (when published)
+
+Once published to Packagist, you can install with:
 
 ```bash
 wp package install jonathanbossenger/wp-scaffold
